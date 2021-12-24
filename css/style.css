@@ -1,0 +1,14 @@
+.container .caixa {
+    /* background-image: linear-gradient(to right, red , blue); */
+    background: radial-gradient(circle at center, #4286f4 0, #373B44 100%);
+    height: 550px;
+    border: 1px solid gray;
+  }
+
+  .formulario::placeholder {
+    color: red !important;
+  }
+
+  h1{
+      color: white;
+  }
