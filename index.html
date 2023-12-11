@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container p-5">
+<div class="row caixa">
+    <div class="col-md-6 p-5">
+    
+<h1 class="element1">MARQUE O SEU CÓDIGO PESSOAL</h1>
+<img src="./img/atm1.png" class="img-fluid" alt=""  width="300">
+
+    </div>
+    <div class="col-md-6">
+        
+<img src="./img/chat.png" class="img-fluid py-3" alt=""  width="400">
+<form action="#">
+<input type="password" class="form-control formulario">
+<input type="text" class="form-control normal d-none">
+<div class="row py-5">
+    <div class="col-md-4 px-1">
+        <button class="btn btn-info form-control deposito d-none">DEPOSITAR</button>
+    </div>
+    <div class="col-md-4 px-1">
+        <button class="btn btn-success form-control saque d-none">LEVANTAR</button>
+        <button class="btn btn-success form-control confirm">CONFIRMAR</button>
+    </div>
+    <div class="col-md-4 px-1">
+        <button class="btn btn-primary form-control fatura d-none" data-toggle="modal" data-target="#siteModal">VER FATURA</button>
+    </div>
+</div>
+</form>
+
+    </div>
+</div>
+
+  <!--inicio modal-->
+  <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title w-100 text-center">FATURA</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>SEU VALOR TOTAL É DE <span class="span">0</span></h5>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" type="button" data-dismiss="modal">fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--fim modal-->
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+</html>
